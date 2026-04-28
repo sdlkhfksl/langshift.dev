@@ -16,6 +16,10 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/pyodide/v0.27.0/full/pyodide.js"
           strategy="beforeInteractive"
         />
+
+        {/* Google AdSense */}
+        <meta name="google-adsense-account" content="ca-pub-6626163368511917" />
+
         
         {/* 基础图标和 PWA 支持 */}
         <link rel="icon" href="/favicon.ico" />
